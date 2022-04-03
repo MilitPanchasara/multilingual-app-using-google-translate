@@ -14,7 +14,7 @@ Implementation of multilingual app using google translate API (Basic version) in
 * Current API calls Google translate API parallelly for all data keys to optimize duration of API call.
 
 # Future modifications and improvements:
-* Keys can be moved into appsettings
+* Keys can be moved into appsettings.json
 * Dataset can be moved into JSON file or Database as per requirements.
 * User can apply versioning to data-set, so that whenever data content changes, front can recall the API and get the latest content.
 
