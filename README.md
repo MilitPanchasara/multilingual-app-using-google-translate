@@ -1,5 +1,5 @@
 # multilingual-app-using-google-translate
-Implementation of multilingual app using google translate API in Angular & .Net Core API project.
+Implementation of multilingual app using google translate API (Basic version) in Angular & .Net Core API project.
 
 # Structure:
 * This project contains API project and Angular project
