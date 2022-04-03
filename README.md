@@ -4,6 +4,7 @@ Implementation of multilingual app using google translate API in Angular & .Net 
 # Structure:
 * This project contains API project and Angular project
 * demo-project directory contains Angular project
+* Bootstrap template is used for demo purpose 
 
 # Description:
 * To implement multilingual functionality, set of Keys are used to store all data which can be translated using Google translate API.
