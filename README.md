@@ -7,10 +7,14 @@ Implementation of multilingual app using google translate API in Angular & .Net 
 
 # Description:
 * To implement multilingual functionality, set of Keys are used to store all data which can be translated using Google translate API.
-* Sample keys are given in WeatherForecast controller, which can be moved into JSON file or Database as per requirements.
+* Sample keys are given in WeatherForecast controller.
 * API will convert data into any language from English.
 * Translated data will be stored in local storage in client-side project, and it will be applied to all components present.
-* User can apply versioning to data set, so that whenever data content changes, front can recall the API and get the latest content.
+* Current API calls Google translate API parallelly for all data keys to optimize duration of API call.
+
+# Future modifications and improvements:
+* Dataset can be moved into JSON file or Database as per requirements.
+* User can apply versioning to data-set, so that whenever data content changes, front can recall the API and get the latest content.
 
 # To run this demo project:
 1. In demo-project directory, install node modules
