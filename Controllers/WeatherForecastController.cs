@@ -63,7 +63,7 @@ namespace Multilingual.Controllers
             var request = new HttpRequestMessage
             {
                 Method = HttpMethod.Get,
-                RequestUri = new Uri("https://translation.googleapis.com/language/translate/v2/languages?key=AIzaSyAsImBkk31Paws7wKuJM8SJWyi69lnAohQ"),
+                RequestUri = new Uri("https://translation.googleapis.com/language/translate/v2/languages?key=<<GOOGLE_API_CLIENT_ID>>"),
             };
             using (var response = await client.SendAsync(request))
             {
@@ -98,7 +98,7 @@ namespace Multilingual.Controllers
                 var request = new HttpRequestMessage
                 {
                     Method = HttpMethod.Post,
-                    RequestUri = new Uri("https://translation.googleapis.com/language/translate/v2?key=" + "AIzaSyAsImBkk31Paws7wKuJM8SJWyi69lnAohQ"),
+                    RequestUri = new Uri("https://translation.googleapis.com/language/translate/v2?key=" + "<<GOOGLE_API_CLIENT_ID>>"),
                     Content = new FormUrlEncodedContent(new Dictionary<string, string>
                     {
                         { "q", tuple.Value},
